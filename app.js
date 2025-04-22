@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
 
 // CORS - security diff dominios
-app.use(cors());
+// app.use(cors()); (Inecesario manejamos por proxy NGINX en TEST-PROD)
 
 
 // Añadir prefijos a rutas / Cargar rutas
