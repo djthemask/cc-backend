@@ -7,6 +7,7 @@ const cors = require('cors');
 
 // Ejecutamos Express (http)
 var app = express();
+app.set('trust proxy', 1);
 
 // Cargamos ficheros Rutas
 var userRoutes = require('./routes/ciudadano');
@@ -23,6 +24,7 @@ app.use(bodyParser.json());
 
 // CORS - security diff dominios
 app.use(cors());
+
 
 // Añadir prefijos a rutas / Cargar rutas
 app.use('/api', userRoutes)
