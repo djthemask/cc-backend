@@ -6,7 +6,7 @@ const validator = require("validator");
 const Ciudadano = require("../models/ciudadano");
 const Operario = require("../models/operario");
 const Departamento = require("../models/departamento");
-const Incidencia = require("../models/Incidencia");
+const Incidencia = require("../models/incidencia");
 const Estado = require("../models/estado_incidencia");
 
 // Imports para File Upload ( File Sistem y Path )
