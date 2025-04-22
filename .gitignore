@@ -1,0 +1,18 @@
+# Ignorar la carpeta de dependencias
+node_modules/
+
+# Ignorar variables de entorno
+*.env
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar carpetas de compilación o distribución
+dist/
+dev-dist/
+build/
+
+# Otros archivos temporales o específicos de tu editor
+.DS_Store
+Thumbs.db
+.vscode/
